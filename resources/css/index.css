@@ -1,0 +1,72 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background: white;
+    opacity: 1.0;
+}
+
+.header {
+    background-color:rgb(246, 246, 246);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    box-shadow: 0.5px 0.5px 5px black;
+}
+
+.title h1 {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.title h2 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    display: inline-block;
+    margin: 0px;
+}
+
+.content {
+    margin-top: 175px;
+}
+
+.intro h3 {
+    font-size: 25px;
+    margin: 0 0 45px 50px;
+}
+
+.projects img {
+    position:relative;
+    width:60%;
+    height:60%;
+    left: 0px;
+}
